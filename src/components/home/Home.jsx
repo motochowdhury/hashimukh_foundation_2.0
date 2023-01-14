@@ -63,6 +63,11 @@ const Home = () => {
                 <p className="text-xl font-sandwip text-orange-500">
                   আমরা সর্বদায় প্রস্তুথ আপনি আছেন তো?
                 </p>
+                <div className="flex lg:block justify-center">
+                  <button className="bg-orange-500 hover:bg-orange-600 py-2 px-5 font-sandwip text-white rounded-sm hover:shadow-slate-700 hover:shadow-lg text-lg">
+                    সদস্য হোন
+                  </button>
+                </div>
               </div>
             </div>
           </div>
