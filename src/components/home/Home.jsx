@@ -1,4 +1,5 @@
 import React from "react";
+import step from "../../assets/step-1.png";
 
 const Home = () => {
   return (
@@ -70,7 +71,12 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="w-96 justify-self-center lg:justify-self-end mt-10 lg:mt-0"></div>
+            <div className="w-96 justify-self-center lg:justify-self-end mt-10 lg:mt-0">
+              <div className="relative">
+                <div className="bg-green-500 w-80 h-96 rounded-full blur-2xl opacity-25"></div>
+                <img className="absolute inset-0 w-96" src={step} alt="" />
+              </div>
+            </div>
           </div>
         </div>
       </div>
