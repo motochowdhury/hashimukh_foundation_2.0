@@ -1,21 +1,11 @@
 import React from "react";
-import step_1 from "../../assets/step-1.png";
 
 const Home = () => {
   return (
-    <section className="max-w-7xl">
-      <div className="grid grid-cols-2">
-        <div>
-          <div>
-            <h1>আসুন মানবতার প্রেমে নিজেকে বিলিয়ে দিই।</h1>
-          </div>
-        </div>
-        <div className="w-full">
-          <div className="bg-blue-500 w-80 h-80 rounded-full blur-3xl relative"></div>
-          <div className="absolute top-0 w-full">
-            <img className="w-72" src={step_1} alt="" />
-          </div>
-        </div>
+    <section className="max-w-6xl mx-auto">
+      <div className="relative">
+        <div className="bg-blue-600 h-[600px] absolute w-10 rounded-t-full left-32 opacity-30 rounded-b-full rotate-12 lg:-rotate-45 blur-2xl"></div>
+        <div className="absolute top-32 bg-orange-500 opacity-30 h-[600px] w-20 rounded-t-full rounded-b-full rotate-12 lg:-rotate-45 blur-xl"></div>
       </div>
     </section>
   );
