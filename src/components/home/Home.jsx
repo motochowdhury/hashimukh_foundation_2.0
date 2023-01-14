@@ -54,6 +54,13 @@ const Home = () => {
                   />
                 </svg>
               </div>
+              <div className="space-y-3">
+                <p className="text-xl font-sandwip text-gray-400">
+                  হাঁসি মুখ ফাউন্ডেশন একটি অরাজনৈতিক ফাউন্ডেশন, যারা মানবতার
+                  কাজে সর্বদা নিজেকে প্রস্তুথ রাখে, যাতে সমাজের বোকে সবাই একসাথে
+                  হাঁসতে পারি।
+                </p>
+              </div>
             </div>
           </div>
         </div>
