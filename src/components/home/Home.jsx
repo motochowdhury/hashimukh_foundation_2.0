@@ -70,6 +70,7 @@ const Home = () => {
                 </div>
               </div>
             </div>
+            <div className="w-96 justify-self-center lg:justify-self-end mt-10 lg:mt-0"></div>
           </div>
         </div>
       </div>
