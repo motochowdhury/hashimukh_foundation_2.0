@@ -12,16 +12,16 @@ const Header = () => {
           </h1>
         </div>
         <ul className="flex space-x-4 font-sandwip text-gray-500">
-          <li className="hover:text-white">
+          <li className="hover:text-white hover:transition-all duration-300">
             <a href="">হোম</a>
           </li>
-          <li className="hover:text-white">
+          <li className="hover:text-white hover:transition-all duration-300">
             <a href="">ব্লাড_খুঁজুন</a>
           </li>
-          <li className="hover:text-white">
+          <li className="hover:text-white hover:transition-all duration-300">
             <a href="">এডমিনেট্রেশন</a>
           </li>
-          <li className="hover:text-white">
+          <li className="hover:text-white hover:transition-all duration-300">
             <a href="">যোগাযোগ করুন</a>
           </li>
         </ul>
