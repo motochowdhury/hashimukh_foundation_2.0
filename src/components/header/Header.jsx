@@ -24,6 +24,16 @@ const Header = () => {
           </div>
           <div className="lg:hidden text-white">close</div>
         </div>
+        <ul className="flex flex-col lg:flex-row space-x-4 font-sandwip text-gray-500">
+          {navItems.map((link) => (
+            <li
+              key={link.name}
+              className="hover:text-white hover:transition-all duration-300"
+            >
+              <a href={link.link}>{link.name}</a>
+            </li>
+          ))}
+        </ul>
       </nav>
     </section>
   );
