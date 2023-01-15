@@ -65,7 +65,7 @@ const Home = () => {
                   আমরা সর্বদায় প্রস্তুথ আপনি আছেন তো?
                 </p>
                 <div className="flex lg:block justify-center">
-                  <button className="bg-orange-500 hover:bg-orange-600 py-2 px-5 font-sandwip text-white rounded-sm hover:shadow-slate-700 hover:shadow-lg text-lg flex">
+                  <button className="bg-orange-500 hover:bg-orange-600 py-2 px-5 font-sandwip text-white rounded-sm hover:shadow-slate-700 hover:shadow-lg text-lg flex hover:transition-all duration-500">
                     সদস্য হোন{" "}
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
