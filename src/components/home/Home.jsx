@@ -16,7 +16,7 @@ const Home = () => {
                   <span className="text-orange-500"> বিলিয়ে দেই।</span>
                 </h1>
                 <svg
-                  className="mx-auto absolute top-5 md:top-0 lg:top-5 w-60 md:left-32 lg:left-0 lg:w-[285px] -z-10 opacity-60"
+                  className="mx-auto absolute top-4 lg:top-5 w-60 md:left-32 lg:left-0 lg:w-[285px] -z-10 opacity-60"
                   // width="285"
                   height="36"
                   viewBox="0 0 285 36"
@@ -80,11 +80,11 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="w-96 justify-self-center lg:justify-self-end mt-10 lg:mt-0">
+            <div className="w-96 px-4 md:px-0 justify-self-center lg:justify-self-end mt-10 lg:mt-0">
               <div className="relative">
                 <div className="bg-green-500 w-80 h-96 rounded-full blur-2xl opacity-25"></div>
                 <img
-                  className="absolute inset-0 md:w-[500px] lg:w-96"
+                  className="absolute inset-0 w-80 md:w-[500px] lg:w-96 mx-auto"
                   src={step}
                   alt=""
                 />
