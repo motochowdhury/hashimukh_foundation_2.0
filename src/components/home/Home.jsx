@@ -9,14 +9,14 @@ const Home = () => {
         <div className="absolute top-32 bg-orange-500 opacity-30 h-[600px] w-20 rounded-t-full rounded-b-full rotate-12 lg:-rotate-45 blur-xl"></div>
         <div className="absolute inset-0">
           <div className="grid grid-cols-1 lg:grid-cols-2 pt-32">
-            <div className="flex flex-col justify-center w-[500] px-10 justify-self-end">
-              <div className="relative mx-auto">
-                <h1 className="text-white text-3xl lg:text-5xl font-sandwip leading-8 md:leading-[70px]">
+            <div className="flex flex-col justify-center w-[500] px-10 md:justify-self-center lg:justify-self-end">
+              <div className="relative">
+                <h1 className="text-white text-3xl md:text-4xl lg:text-5xl md:text-center lg:text-left text-left font-sandwip leading-8 md:leading-[70px]">
                   আসুন মানবতার প্রেমে নিজেকে
-                  <span className="text-orange-500">বিলিয়ে দেই।</span>
+                  <span className="text-orange-500"> বিলিয়ে দেই।</span>
                 </h1>
                 <svg
-                  className="mx-auto absolute top-5 w-60 lg:w-[285px] -z-10 opacity-60"
+                  className="mx-auto absolute top-5 md:top-0 lg:top-5 w-60 md:left-32 lg:left-0 lg:w-[285px] -z-10 opacity-60"
                   // width="285"
                   height="36"
                   viewBox="0 0 285 36"
@@ -55,7 +55,7 @@ const Home = () => {
                   />
                 </svg>
               </div>
-              <div className="space-y-3">
+              <div className="space-y-3  lg:text-left w-80 md:w-[500px] lg:w-full">
                 <p className="text-xl font-sandwip text-gray-400">
                   হাঁসি মুখ ফাউন্ডেশন একটি অরাজনৈতিক ফাউন্ডেশন, যারা মানবতার
                   কাজে সর্বদা নিজেকে প্রস্তুথ রাখে, যাতে সমাজের বোকে সবাই একসাথে
@@ -65,8 +65,17 @@ const Home = () => {
                   আমরা সর্বদায় প্রস্তুথ আপনি আছেন তো?
                 </p>
                 <div className="flex lg:block justify-center">
-                  <button className="bg-orange-500 hover:bg-orange-600 py-2 px-5 font-sandwip text-white rounded-sm hover:shadow-slate-700 hover:shadow-lg text-lg">
-                    সদস্য হোন
+                  <button className="bg-orange-500 hover:bg-orange-600 py-2 px-5 font-sandwip text-white rounded-sm hover:shadow-slate-700 hover:shadow-lg text-lg flex">
+                    সদস্য হোন{" "}
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      style={{ fill: "#ffffff" }}
+                    >
+                      <path d="M9 18h3v-2H9c-1.654 0-3-1.346-3-3s1.346-3 3-3h6v3l5-4-5-4v3H9c-2.757 0-5 2.243-5 5s2.243 5 5 5z"></path>
+                    </svg>
                   </button>
                 </div>
               </div>
@@ -74,7 +83,11 @@ const Home = () => {
             <div className="w-96 justify-self-center lg:justify-self-end mt-10 lg:mt-0">
               <div className="relative">
                 <div className="bg-green-500 w-80 h-96 rounded-full blur-2xl opacity-25"></div>
-                <img className="absolute inset-0 w-96" src={step} alt="" />
+                <img
+                  className="absolute inset-0 md:w-[500px] lg:w-96"
+                  src={step}
+                  alt=""
+                />
               </div>
             </div>
           </div>
