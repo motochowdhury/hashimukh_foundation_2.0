@@ -8,10 +8,10 @@ const Header = () => {
     { link: "#home", name: "এডমিনেট্রেশন" },
     { link: "#home", name: "যোগাযোগ করুন" },
   ];
-  const [open, setOpen] = useState(false);
+  const [open, setOpen] = useState(true);
   return (
-    <section className="">
-      <nav className="flex flex-col lg:flex-row items-center lg:justify-between bg-white/0 backdrop-blur-xl">
+    <nav className="fixed top-0 left-0 w-full h-2/6 z-40">
+      <div className="max-w-6xl mx-auto flex flex-col lg:flex-row items-center justify-between">
         <div className="flex items-center justify-around w-full lg:w-auto">
           <div className="flex items-center">
             <img
@@ -23,7 +23,10 @@ const Header = () => {
               হাঁসি মুখ ফাউন্ডেশন
             </h1>
           </div>
-          <div onClick={() => setOpen(!open)} className="lg:hidden text-white">
+          <div
+            onClick={() => setOpen(!open)}
+            className="lg:hidden text-white cursor-pointer"
+          >
             {open ? (
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -61,8 +64,8 @@ const Header = () => {
             </li>
           ))}
         </ul>
-      </nav>
-    </section>
+      </div>
+    </nav>
   );
 };
 
