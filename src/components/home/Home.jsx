@@ -9,7 +9,7 @@ const Home = () => {
         <div className="absolute top-32 bg-orange-500 opacity-30 h-[600px] w-20 rounded-t-full rounded-b-full rotate-12 lg:-rotate-45 blur-xl"></div>
         <div className="absolute inset-0">
           <div className="grid grid-cols-1 lg:grid-cols-2 pt-32">
-            <div className="flex flex-col justify-center w-[500] px-10 md:justify-self-center lg:justify-self-end">
+            <div className="flex flex-col justify-center w-[500] px-10 justify-self-center lg:justify-self-end">
               <div className="relative">
                 <h1 className="text-white text-3xl md:text-4xl lg:text-5xl md:text-center lg:text-left text-left font-sandwip leading-8 md:leading-[70px]">
                   আসুন মানবতার প্রেমে নিজেকে
