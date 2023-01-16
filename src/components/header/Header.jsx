@@ -51,14 +51,14 @@ const Header = () => {
           </div>
         </div>
         <ul
-          className={`static flex flex-col lg:flex-row space-x-4 font-sandwip text-gray-200 text-lg ${
+          className={`static flex flex-col justify-center lg:flex-row space-x-4 font-sandwip text-gray-200 text-lg ${
             open ? "flex" : "hidden"
           } transition-all duration-500 ease-in`}
         >
           {navItems.map((link) => (
             <li
               key={link.name}
-              className="hover:text-white hover:transition-all duration-300"
+              className="hover:text-white text-center lg:text-center hover:transition-all duration-300"
             >
               <a href={link.link}>{link.name}</a>
             </li>
