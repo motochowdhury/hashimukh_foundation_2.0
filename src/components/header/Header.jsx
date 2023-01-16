@@ -10,8 +10,8 @@ const Header = () => {
   ];
   const [open, setOpen] = useState(true);
   return (
-    <nav className="fixed top-0 left-0 w-full h-2/6 z-40">
-      <div className="max-w-6xl mx-auto flex flex-col lg:flex-row items-center justify-between">
+    <nav className="fixed top-0 left-0 w-full z-40 backdrop-blur-xl">
+      <div className="max-w-6xl mx-auto flex flex-col lg:flex-row items-center justify-between backdrop-blur-2xl">
         <div className="flex items-center justify-around w-full lg:w-auto">
           <div className="flex items-center">
             <img
@@ -51,7 +51,7 @@ const Header = () => {
           </div>
         </div>
         <ul
-          className={`static flex flex-col lg:flex-row space-x-4 font-sandwip text-gray-500 ${
+          className={`static flex flex-col lg:flex-row space-x-4 font-sandwip text-gray-200 text-lg ${
             open ? "flex" : "hidden"
           } transition-all duration-500 ease-in`}
         >
