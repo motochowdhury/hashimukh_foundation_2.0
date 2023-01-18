@@ -8,14 +8,9 @@
   src: url("../src/font/Shorif\ Sandwip.ttf");
 }
 
-html {
+body {
   max-width: 1152px;
   margin: auto;
-  /* margin-left: auto;
-  margin-right: auto; */
-}
-
-body {
   background-color: #01050f;
 }
 
