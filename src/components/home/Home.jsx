@@ -16,7 +16,7 @@ const Home = () => {
               <div className="w-[500] mx-auto">
                 <div className="text-center lg:text-left w-1/2 mx-auto lg:mx-0">
                   <div className="relative">
-                    <h1 className="text-white text-3xl md:text-4xl lg:text-5xl md:text-center lg:text-left text-left font-sandwip leading-8 md:leading-[70px]">
+                    <h1 className="text-gray-200 text-3xl md:text-4xl lg:text-5xl md:text-center lg:text-left text-left font-sandwip leading-8 md:leading-[70px]">
                       আসুন মানবতার প্রেমে নিজেকে
                       <span className="text-orange-500"> বিলিয়ে দেই।</span>
                     </h1>
