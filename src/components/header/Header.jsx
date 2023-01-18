@@ -10,7 +10,7 @@ const Header = () => {
   ];
   const [open, setOpen] = useState(true);
   return (
-    <nav className="fixed top-0 left-0 w-full z-40 backdrop-blur-xl">
+    <nav className="fixed top-0 left-0 w-full z-40 backdrop-blur-2xl">
       <div className="mx-auto flex flex-col lg:flex-row items-center lg:justify-between backdrop-blur-2xl px-10 max-w-6xl">
         <div className="flex items-center justify-around w-full lg:w-auto">
           <div className="flex items-center">

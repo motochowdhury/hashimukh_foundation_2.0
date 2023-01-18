@@ -10,6 +10,9 @@ const SearchBarHome = () => {
             রক্তদাতা <span className="text-blue-400">খুঁজুন</span>
           </h1>
         </div>
+        <div className="flex justify-center">
+          <div className="bg-gray-900 w-[500px] h-[50px] rounded-md border border-1 border-gray-800"></div>
+        </div>
       </div>
     </section>
   );
