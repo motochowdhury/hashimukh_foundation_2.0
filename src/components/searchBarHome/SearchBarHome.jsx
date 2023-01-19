@@ -11,7 +11,10 @@ const SearchBarHome = () => {
           </h1>
         </div>
         <div className="flex justify-center">
-          <div className="bg-gray-900 w-[500px] h-[50px] rounded-md border border-1 border-gray-800"></div>
+          <div className="relative">
+            <div className="bg-gradient-to-r from-pink-900 to-green-700 blur-xl w-[500px] h-[50px] rounded-md border border-1 border-gray-800"></div>
+            <div className="absolute inset-0 bg-bg-color w-[500px] h-[50px] rounded-md border border-1 border-gray-800"></div>
+          </div>
         </div>
       </div>
     </section>

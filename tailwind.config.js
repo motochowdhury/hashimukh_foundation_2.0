@@ -6,6 +6,9 @@ module.exports = {
       fontFamily: {
         sandwip: "shorif sandwif",
       },
+      backgroundColor: {
+        "bg-color": "#01050f",
+      },
     },
   },
   plugins: [],
