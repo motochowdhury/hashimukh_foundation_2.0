@@ -50,7 +50,9 @@ const SearchBarHome = () => {
               className={`bg-gray-500 h-72 w-80 px-5 lg:px-0 lg:w-[500px] transition-all duration-1000 ease-out rounded-md mx-auto ${
                 toggle ? "block" : "hidden"
               }`}
-            ></div>
+            >
+              <div>Content Will be visible here</div>
+            </div>
           </div>
         </div>
       </div>
