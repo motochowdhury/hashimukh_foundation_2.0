@@ -13,10 +13,10 @@ const SearchBarHome = () => {
         </div>
         <div className="flex justify-center">
           <div className="relative">
-            <div className="bg-gradient-to-r from-pink-900 to-green-700 blur-2xl w-80 px-5 lg:px-0 lg:w-[500px]  h-[50px] rounded-md border border-1 border-gray-800 opacity-75"></div>
+            <div className="bg-gradient-to-r from-pink-900 to-green-700 blur-2xl w-80  lg:px-0 lg:w-[500px]  h-[50px] rounded-md border border-1 border-gray-800 opacity-75 mx-auto"></div>
             <div
               onClick={() => setSearchToggle(!toggle)}
-              className="absolute inset-0 bg-gray-500 w-80 lg:px-0 lg:w-[500px]  h-[50px] rounded-md border border-1 border-gray-800 flex justify-between px-5 items-center cursor-pointer"
+              className="absolute inset-0 bg-gray-500 w-80 lg:w-[500px]  h-[50px] rounded-md border border-1 border-gray-800 flex justify-between items-center cursor-pointer mx-auto px-5"
             >
               <h5 className="text-md lg:text-2xl text-white font-sandwip">
                 ক্যাটাগোরাইজ রক্তদাতা খুজতে এখানে চাপুন
@@ -47,7 +47,7 @@ const SearchBarHome = () => {
               </div>
             </div>
             <div
-              className={`bg-gray-500 h-72 w-80 px-5 lg:px-0 lg:w-[500px] transition-all duration-1000 ease-out rounded-md ${
+              className={`bg-gray-500 h-72 w-80 px-5 lg:px-0 lg:w-[500px] transition-all duration-1000 ease-out rounded-md mx-auto ${
                 toggle ? "block" : "hidden"
               }`}
             ></div>
