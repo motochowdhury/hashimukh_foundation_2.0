@@ -16,10 +16,12 @@ const SearchBarHome = () => {
             <div className="bg-gradient-to-r from-pink-900 to-green-700 blur-2xl w-[500px] h-[50px] rounded-md border border-1 border-gray-800 opacity-75"></div>
             <div
               onClick={() => setSearchToggle(!toggle)}
-              className="absolute inset-0 bg-bg-color w-[500px] h-[50px] rounded-md border border-1 border-gray-800"
+              className="absolute inset-0 bg-gray-500 w-[500px] h-[50px] rounded-md border border-1 border-gray-800"
             ></div>
             <div
-              className={`bg-white h-72 w-80${toggle ? "block" : "hidden"}`}
+              className={`bg-gray-500 h-72 w-[500px] transition-all duration-1000 ease-out rounded-md ${
+                toggle ? "block" : "hidden"
+              }`}
             ></div>
           </div>
         </div>
