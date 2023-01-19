@@ -18,11 +18,7 @@ const SearchBarHome = () => {
               onClick={() => setSearchToggle(!toggle)}
               className="absolute inset-0 bg-bg-color w-[500px] h-[50px] rounded-md border border-1 border-gray-800"
             ></div>
-            <div
-              className={`bg-white h-72 w-80 transition-all duration-1000 ease-out ${
-                toggle ? "block" : "hidden"
-              }`}
-            ></div>
+            <div className={`bg-white h-72 w-80`}></div>
           </div>
         </div>
       </div>
