@@ -51,7 +51,9 @@ const SearchBarHome = () => {
                 toggle ? "block" : "hidden"
               }`}
             >
-              <div>Content Will be visible here</div>
+              <div>
+                <input type="selection"></input>
+              </div>
             </div>
           </div>
         </div>
