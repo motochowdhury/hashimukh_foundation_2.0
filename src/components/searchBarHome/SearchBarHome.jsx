@@ -51,8 +51,15 @@ const SearchBarHome = () => {
                 toggle ? "block" : "hidden"
               }`}
             >
-              <div>
-                <input type="selection"></input>
+              <div className="py-5">
+                <div className="">
+                  <label htmlFor="b-group">Select Blood</label>
+                  <select name="b-group outline" id="" className="block">
+                    <option value="B + (tive)">B + (tive)</option>
+                    <option value="B + (tive)">B + (tive)</option>
+                    <option value="B + (tive)">B + (tive)</option>
+                  </select>
+                </div>
               </div>
             </div>
           </div>
