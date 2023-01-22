@@ -56,13 +56,13 @@ const SearchBarHome = () => {
                   <label htmlFor="b-group">Select Blood</label>
                   <select name="b-group outline" id="" className="block">
                     <option value="A + (tive)">A + (tive)</option>
-                    <option value="A - (minus)">A - (minus)</option>
+                    <option value="A - (tive)">A - (tive)</option>
                     <option value="B + (tive)">B + (tive)</option>
-                    <option value="B - (minus)">B - (minus)</option>
+                    <option value="B - (tive)">B - (tive)</option>
                     <option value="O + (tive)">O + (tive)</option>
-                    <option value="O - (minus)">O - (minus)</option>
+                    <option value="O - (tive)">O - (tive)</option>
                     <option value="AB + (tive)">AB + (tive)</option>
-                    <option value="AB - (minus)">AB - (minus)</option>
+                    <option value="AB - (tive)">AB - (tive)</option>
                   </select>
                 </div>
               </div>
