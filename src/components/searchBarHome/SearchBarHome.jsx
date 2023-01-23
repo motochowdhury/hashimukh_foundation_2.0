@@ -54,6 +54,7 @@ const SearchBarHome = () => {
               <div className="py-5">
                 <div className="">
                   <label htmlFor="b-group">Select Blood</label>
+                  <div cla>
                   <select name="b-group" id="" className="block outline-none">
                     <option value="A + (tive)">A + (tive)</option>
                     <option value="A - (tive)">A - (tive)</option>
@@ -64,6 +65,7 @@ const SearchBarHome = () => {
                     <option value="AB + (tive)">AB + (tive)</option>
                     <option value="AB - (tive)">AB - (tive)</option>
                   </select>
+                  </div>
                 </div>
               </div>
             </div>
