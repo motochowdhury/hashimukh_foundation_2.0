@@ -71,7 +71,25 @@ const SearchBarHome = () => {
                     </select>
                   </div>
                 </div>
-                <div></div>
+                <div>
+                  <label htmlFor="b-group">Select Blood</label>
+                  <div className="w-1/2 mx-auto">
+                    <select
+                      name="b-group"
+                      id=""
+                      className="block outline-none bg-gray-500"
+                    >
+                      <option value="A + (tive)">A + (tive)</option>
+                      <option value="A - (tive)">A - (tive)</option>
+                      <option value="B + (tive)">B + (tive)</option>
+                      <option value="B - (tive)">B - (tive)</option>
+                      <option value="O + (tive)">O + (tive)</option>
+                      <option value="O - (tive)">O - (tive)</option>
+                      <option value="AB + (tive)">AB + (tive)</option>
+                      <option value="AB - (tive)">AB - (tive)</option>
+                    </select>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
