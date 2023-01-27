@@ -91,7 +91,8 @@ const SearchBarHome = () => {
                   </div>
                 </div>
                 <div>
-                  <select>
+                  <label htmlFor="gender">Select Genger</label>
+                  <select name="gender" className="block">
                     <option value="male">Male</option>
                     <option value="female">Female</option>
                   </select>
