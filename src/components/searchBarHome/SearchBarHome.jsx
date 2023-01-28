@@ -47,55 +47,54 @@ const SearchBarHome = () => {
               </div>
             </div>
             <div
-              className={`bg-gray-500 h-72 w-80 px-5 lg:px-0 lg:w-[500px] transition-all duration-1000 ease-out rounded-md mx-auto ${
+              className={`bg-gray-500 h-72 w-80 px-5 lg:px-0 lg:w-[500px] transition-all duration-1000 ease-linear rounded-md mx-auto ${
                 toggle ? "block" : "hidden"
               }`}
             >
-              <div className="py-5">
-                <div className="">
-                  <label htmlFor="b-group">Select Blood</label>
-                  <div className="w-1/2 mx-auto">
-                    <select
-                      name="b-group"
-                      id=""
-                      className="block outline-none bg-gray-500"
-                    >
-                      <option value="A + (tive)">A + (tive)</option>
-                      <option value="A - (tive)">A - (tive)</option>
-                      <option value="B + (tive)">B + (tive)</option>
-                      <option value="B - (tive)">B - (tive)</option>
-                      <option value="O + (tive)">O + (tive)</option>
-                      <option value="O - (tive)">O - (tive)</option>
-                      <option value="AB + (tive)">AB + (tive)</option>
-                      <option value="AB - (tive)">AB - (tive)</option>
-                    </select>
+              <div className="w-10/12 mx-auto">
+                <div className="py-5">
+                  <div className="">
+                    <label htmlFor="b-group">Select Blood</label>
+                    <div className="">
+                      <select
+                        name="b-group"
+                        id=""
+                        className="block outline-none bg-gray-500"
+                      >
+                        <option value="A + (tive)">A + (tive)</option>
+                        <option value="A - (tive)">A - (tive)</option>
+                        <option value="B + (tive)">B + (tive)</option>
+                        <option value="B - (tive)">B - (tive)</option>
+                        <option value="O + (tive)">O + (tive)</option>
+                        <option value="O - (tive)">O - (tive)</option>
+                        <option value="AB + (tive)">AB + (tive)</option>
+                        <option value="AB - (tive)">AB - (tive)</option>
+                      </select>
+                    </div>
                   </div>
-                </div>
-                <div>
-                  <label htmlFor="b-group">Select Blood</label>
-                  <div className="w-1/2 mx-auto">
-                    <select
-                      name="b-group"
-                      id=""
-                      className="block outline-none bg-gray-500"
-                    >
-                      <option value="A + (tive)">A + (tive)</option>
-                      <option value="A - (tive)">A - (tive)</option>
-                      <option value="B + (tive)">B + (tive)</option>
-                      <option value="B - (tive)">B - (tive)</option>
-                      <option value="O + (tive)">O + (tive)</option>
-                      <option value="O - (tive)">O - (tive)</option>
-                      <option value="AB + (tive)">AB + (tive)</option>
-                      <option value="AB - (tive)">AB - (tive)</option>
-                    </select>
+                  <div>
+                    <label htmlFor="b-group">Select Location</label>
+                    <div className="">
+                      <select
+                        name="b-group"
+                        id=""
+                        className="block outline-none bg-gray-500"
+                      >
+                        <option value="ukhiay">Ukhiay</option>
+                        <option value="ramu">Ramu</option>
+                        <option value="bazar">Cox's Bazar</option>
+                      </select>
+                    </div>
                   </div>
-                </div>
-                <div>
-                  <label htmlFor="gender">Select Genger</label>
-                  <select name="gender" className="block">
-                    <option value="male">Male</option>
-                    <option value="female">Female</option>
-                  </select>
+                  <div>
+                    <div className="">
+                      <label htmlFor="gender">Select Genger</label>
+                      <select name="gender" className="block">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                      </select>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
