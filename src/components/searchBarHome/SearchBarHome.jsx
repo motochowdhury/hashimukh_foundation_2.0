@@ -53,13 +53,13 @@ const SearchBarHome = () => {
             >
               <div className="w-10/12 mx-auto">
                 <div className="py-5">
-                  <div className="">
-                    <label htmlFor="b-group">Select Blood</label>
-                    <div className="">
+                  <div className="border border-emerald-300 rounded-md bg-white">
+                    {/* <label htmlFor="b-group">Select Blood</label> */}
+                    <div className="w-1/2 mx-auto ">
                       <select
                         name="b-group"
                         id=""
-                        className="block outline-none bg-gray-500"
+                        className="block outline-none bg-white w-full"
                       >
                         <option value="A + (tive)">A + (tive)</option>
                         <option value="A - (tive)">A - (tive)</option>
@@ -89,7 +89,10 @@ const SearchBarHome = () => {
                   <div>
                     <div className="">
                       <label htmlFor="gender">Select Genger</label>
-                      <select name="gender" className="block">
+                      <select
+                        name="gender"
+                        className="block outline-none bg-gray-500"
+                      >
                         <option value="male">Male</option>
                         <option value="female">Female</option>
                       </select>
