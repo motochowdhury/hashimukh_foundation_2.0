@@ -54,7 +54,7 @@ const SearchBarHome = () => {
               <div className="w-10/12 mx-auto">
                 <div className="py-5">
                   <div className="border border-emerald-300 rounded-md bg-white">
-                    {/* <label htmlFor="b-group">Select Blood</label> */}
+                    <label htmlFor="b-group">Select Blood</label>
                     <div className="w-1/2 mx-auto ">
                       <select
                         name="b-group"
@@ -97,6 +97,9 @@ const SearchBarHome = () => {
                         <option value="female">Female</option>
                       </select>
                     </div>
+                  </div>
+                  <div>
+                    <button>Search</button>
                   </div>
                 </div>
               </div>
