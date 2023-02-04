@@ -100,6 +100,7 @@ const SearchBarHome = () => {
                   </div>
                   <div>
                     <button>Search</button>
+                    <button>Submit</button>
                   </div>
                 </div>
               </div>
